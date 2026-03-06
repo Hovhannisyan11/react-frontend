@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-frontend/static/css/main.75c7648e.css",
+    "main.js": "/react-frontend/static/js/main.1a3f9e84.js",
+    "static/media/nature3@2x.png": "/react-frontend/static/media/nature3@2x.c7c355f7aceb7bcb8c0f.png",
+    "static/media/nature1@2x.png": "/react-frontend/static/media/nature1@2x.1edff1d87fa93e9f41c3.png",
+    "static/media/nature2@2x.png": "/react-frontend/static/media/nature2@2x.37e9911185d1a5ddbf03.png",
+    "index.html": "/react-frontend/index.html",
+    "main.75c7648e.css.map": "/react-frontend/static/css/main.75c7648e.css.map",
+    "main.1a3f9e84.js.map": "/react-frontend/static/js/main.1a3f9e84.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.75c7648e.css",
+    "static/js/main.1a3f9e84.js"
+  ]
+}
