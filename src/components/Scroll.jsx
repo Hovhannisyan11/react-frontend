@@ -10,9 +10,9 @@ function HeaderScroll() {
       const currentScroll = window.pageYOffset;
 
       if (currentScroll > 200 && currentScroll > lastScroll) {
-        setHide(true); // скрываем header
+        setHide(true);
       } else {
-        setHide(false); // показываем header
+        setHide(false); 
       }
 
       lastScroll = currentScroll;
