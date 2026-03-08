@@ -30,7 +30,7 @@ input {
 .search-wrapper {
   display: flex;
   align-items: center;
-  margin-left: auto; /* справа от логотипа */
+  margin-left: auto; 
   position: relative;
 }
 
