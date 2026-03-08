@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from "react";
 import PostCard from "./components/PostCards";
 import Search from "./components/Search";
-import HeaderScroll from "./components/Scroll"; // твой хук/компонент скролла
+import HeaderScroll from "./components/Scroll"; 
 
 function App() {
   const [search, setSearch] = useState("");
@@ -11,8 +11,8 @@ function App() {
   const [searchOpen, setSearchOpen] = useState(false);
   const wrapperRef = useRef(null);
 
-  // Используем твой компонент/хук HeaderScroll
-  const hideHeader = HeaderScroll(); // возвращает true/false для скрытия
+
+  const hideHeader = HeaderScroll(); 
 
   useEffect(() => {
     fetch("https://dummyjson.com/posts")
@@ -29,7 +29,7 @@ function App() {
     );
   });
 
-  // Закрытие поиска при клике вне
+ 
   useEffect(() => {
     function handleClickOutside(event) {
       if (wrapperRef.current && !wrapperRef.current.contains(event.target)) {
